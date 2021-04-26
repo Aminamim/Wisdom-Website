@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: maroon;
+  background-image: url('books.jpg');
+  background-size: cover; 
+  background-attachment: fixed; 
+  background-position: center;
+  height: 200px;
+}
+
+
+
+.icon-bar {
+  width: 5%;
+  position: fixed;
+  z-index: 1;
+  background: indianred;
+  overflow-x: hidden;
+  
+}
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+
+}
+.icon-bar a:hover {
+  background-color: maroon;
+}
+.active {
+  background-color: maroon;
+}
+.transbox {
+  
+  background-color: white;
+  opacity: 0.8;
+}
+.transbox p {
+  font-weight: bold;
+  color: #000000;
+}
+.main {
+     width: 100%; 
+      height: auto; 
+      padding: 10px 0;
+      margin: auto;
+      border-radius: 5px; 
+      border: solid 1px #ccc;
+      box-shadow: 1px 2px 5px rgba(0,0,0,.31); 
+      background: #ebebeb; 
+      float: center; 
+}
+ .formcontainer {
+        box-sizing: border-box;
+      text-align: center;
+      }
+      .container {
+      padding: 10px;
+      text-align:center;
+      }
+      .polaroid {
+ 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  height: 50px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+
+
+     
+form.example input[type=text] {
+  float: right;
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: indianred;
+  color: white;
+  font-size: 17px;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: maroon;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+footer {
+  background-color: Maroon;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}

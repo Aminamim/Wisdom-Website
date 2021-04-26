@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: maroon;
+  background-image: url('books.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-attachment: fixed; 
+  background-position: center;
+}
+
+
+
+.transbox {
+  margin: 30px;
+  background-color: white;
+  border: 1px solid black;
+  opacity: 0.8;
+}
+
+.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+.container {
+  padding: 10px;
+}
+.polaroid {
+  width: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  height: 50px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+.icon-bar {
+  width: 5%;
+  position: fixed;
+  z-index: 1;
+  background: indianred;
+  overflow-x: hidden;
+  
+
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+
+}
+
+.icon-bar a:hover {
+  background-color: maroon;
+}
+
+.active {
+  background-color: maroon;
+}
+
+
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding: 15px;
+  
+}
+
+
+
+form.example input[type=text] {
+  float: right;
+  padding: 10px;
+  font-size: 17px;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: indianred;
+  color: white;
+  font-size: 17px;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: maroon;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+section{
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  height: 1000px;
+}
+
+footer {
+  background-color: Maroon;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
